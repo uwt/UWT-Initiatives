@@ -1,0 +1,96 @@
+/* Header styles */
+.topnav-top #logo{
+    width: 100%;
+    padding-right: 0px;
+}
+.topnav-top #logo a{
+    /*height: auto;
+    width: 150px;*/
+}
+
+
+.theme-purple #wrapper {
+    /*    background: #d9d9d9;*/
+}
+
+.header-dark.theme-purple #header:not(.img-cover) #main-navigation .main-nav-wrapper {
+    background: #4b2e83;
+}
+
+/* Masony Styles*/
+figure figcaption {
+    background: #d9d9d9;
+    color: #444444;
+}
+
+figure.purple {
+    background-color: #4b2e83 !important
+}
+
+figure.gold {
+    background-color: #b7a57a !important
+}
+
+figure.gold-metallic {
+    background-color: #85754d !important
+}
+
+figure.black {
+    background-color: #000000 !important
+}
+
+figure.white {
+    background-color: #ffffff !important
+}
+
+figure.grey-light {
+    background-color: #d9d9d9 !important
+}
+
+figure.grey-dark {
+    background-color: #444444 !important
+}
+
+.theme-purple figure figcaption a.btn {
+    color: #ffffff;
+}
+
+.theme-purple figure figcaption a.btn:hover {
+    color: #d9d9d9 !important;
+}
+
+.header-dark.theme-purple .items-filter li a {
+    color: #4b2e83;
+}
+
+figure > figcaption {
+    text-align: center;
+}
+
+/* custom filter button trickery */
+.items-filter{
+    margin-bottom: 5px;
+}
+.init-links{
+    min-height: 2.25em;
+
+}
+.init-links a{
+    display: none;
+}
+.init-links a strong{
+    font-size: 110%;
+    text-decoration: underline;
+}
+.init-links a:link,
+.init-links a:visited{
+    color: white !important;
+}
+@media (max-width: 650px){
+    .items-filter {
+        display: block;
+    }
+    .init-links{
+        min-height: initial;
+    }
+}
