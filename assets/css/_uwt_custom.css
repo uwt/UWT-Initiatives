@@ -17,6 +17,17 @@
     background: #4b2e83;
 }
 
+/* Slide styles, renaming the Resturant selectors */
+.tp-caption.Main-Title,.Main-Title{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:#fff;font-family:inherit;font-size:60px;font-style:normal;font-weight:700;line-height:60px;padding:0;text-decoration:none}
+.tp-caption.Main-Point,.Main-Point{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:#fff;font-family:inherit;font-size:30px;font-style:normal;font-weight:700;line-height:40px;padding:0;text-decoration:none}
+
+.tp-caption.Initiative-Button,.Initiative-Button{background-color:rgba(10,10,10,0);border-color:rgba(255,255,255,0.50);border-radius:0 0 0 0;border-style:solid;border-width:2px;color:rgba(255,255,255,1.00);font-family:inherit;font-size:17px;font-style:normal;font-weight:500;letter-spacing:3px;line-height:17px;padding:12px 35px;text-align:left;text-decoration:none}
+.tp-caption.Initiative-Button:hover,.Initiative-Button:hover{background-color:rgba(0,0,0,0);border-color:rgba(255,224,129,1.00);border-radius:0 0 0 0;border-style:solid;border-width:2px;color:rgba(255,255,255,1.00);text-decoration:none}
+
+.tp-caption.Sub-Point,.Sub-Point{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:#fff;font-family:inherit;font-size:30px;font-style:normal;font-weight:300;letter-spacing:3px;line-height:40px;padding:0;text-decoration:none}
+.tp-caption.Sub-Point,.Sub-Point{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:#fff;font-family:inherit;font-size:30px;font-style:normal;font-weight:300;letter-spacing:2px;line-height:40px;padding:0;text-decoration:none}
+
+
 /* Masony Styles*/
 figure figcaption {
     background: #d9d9d9;
