@@ -1,107 +1,207 @@
 /* Header styles */
-.topnav-top #logo{
+.topnav-top #logo {
     width: 100%;
     padding-right: 0px;
 }
-.topnav-top #logo a{
+
+.topnav-top #logo a {
     /*height: auto;
     width: 150px;*/
 }
 
-
-.theme-purple #wrapper {
-    /*    background: #d9d9d9;*/
+@media (max-width: 768px) {
+    .header-transparent.topnav-top #header ~ #main-content {
+        margin-top: 0px;
+    }
 }
 
-.header-dark.theme-purple #header:not(.img-cover) #main-navigation .main-nav-wrapper {
-    background: #4b2e83;
-}
+    .theme-purple #wrapper {
+        /*    background: #d9d9d9;*/
+    }
 
-/* Slide styles, renaming the Resturant selectors */
-.tp-caption.Main-Title,.Main-Title{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:#fff;font-family:inherit;font-size:60px;font-style:normal;font-weight:700;line-height:60px;padding:0;text-decoration:none}
-.tp-caption.Main-Point,.Main-Point{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:#fff;font-family:inherit;font-size:30px;font-style:normal;font-weight:700;line-height:40px;padding:0;text-decoration:none}
+    .header-dark.theme-purple #header:not(.img-cover) #main-navigation .main-nav-wrapper {
+        background: #4b2e83;
+    }
 
-.tp-caption.Initiative-Button,.Initiative-Button{background-color:rgba(10,10,10,0);border-color:rgba(255,255,255,0.50);border-radius:0 0 0 0;border-style:solid;border-width:2px;color:rgba(255,255,255,1.00);font-family:inherit;font-size:17px;font-style:normal;font-weight:500;letter-spacing:3px;line-height:17px;padding:12px 35px;text-align:left;text-decoration:none}
-.tp-caption.Initiative-Button:hover,.Initiative-Button:hover{background-color:rgba(0,0,0,0);border-color:rgba(255,224,129,1.00);border-radius:0 0 0 0;border-style:solid;border-width:2px;color:rgba(255,255,255,1.00);text-decoration:none}
+    /* Slide styles, renaming the Resturant selectors */
+    .tp-caption.Main-Title, .Main-Title {
+        background-color: transparent;
+        border-color: transparent;
+        border-radius: 0 0 0 0;
+        border-style: none;
+        border-width: 0;
+        color: #fff;
+        font-family: inherit;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        padding: 0;
+        text-decoration: none
+    }
 
-.tp-caption.Sub-Point,.Sub-Point{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:#fff;font-family:inherit;font-size:30px;font-style:normal;font-weight:300;letter-spacing:3px;line-height:40px;padding:0;text-decoration:none}
-.tp-caption.Sub-Point,.Sub-Point{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:#fff;font-family:inherit;font-size:30px;font-style:normal;font-weight:300;letter-spacing:2px;line-height:40px;padding:0;text-decoration:none}
+    .tp-caption.Main-Point, .Main-Point {
+        background-color: transparent;
+        border-color: transparent;
+        border-radius: 0 0 0 0;
+        border-style: none;
+        border-width: 0;
+        color: #fff;
+        font-family: inherit;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        padding: 0;
+        text-decoration: none
+    }
 
+    .tp-caption.Initiative-Button, .Initiative-Button {
+        background-color: rgba(10, 10, 10, 0);
+        border-color: rgba(255, 255, 255, 0.50);
+        border-radius: 0 0 0 0;
+        border-style: solid;
+        border-width: 2px;
+        color: rgba(255, 255, 255, 1.00);
+        font-family: inherit;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 3px;
+        line-height: 17px;
+        padding: 12px 35px;
+        text-align: left;
+        text-decoration: none
+    }
 
-/* Masony Styles*/
-figure figcaption {
-    background: #d9d9d9;
-    color: #444444;
-}
+    .tp-caption.Initiative-Button:hover, .Initiative-Button:hover {
+        background-color: rgba(0, 0, 0, 0);
+        border-color: rgba(255, 224, 129, 1.00);
+        border-radius: 0 0 0 0;
+        border-style: solid;
+        border-width: 2px;
+        color: rgba(255, 255, 255, 1.00);
+        text-decoration: none
+    }
 
-figure.purple {
-    background-color: #4b2e83 !important
-}
+    .tp-caption.Sub-Point, .Sub-Point {
+        background-color: transparent;
+        border-color: transparent;
+        border-radius: 0 0 0 0;
+        border-style: none;
+        border-width: 0;
+        color: #fff;
+        font-family: inherit;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        letter-spacing: 3px;
+        line-height: 40px;
+        padding: 0;
+        text-decoration: none
+    }
 
-figure.gold {
-    background-color: #b7a57a !important
-}
+    .tp-caption.Sub-Point, .Sub-Point {
+        background-color: transparent;
+        border-color: transparent;
+        border-radius: 0 0 0 0;
+        border-style: none;
+        border-width: 0;
+        color: #fff;
+        font-family: inherit;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        letter-spacing: 2px;
+        line-height: 40px;
+        padding: 0;
+        text-decoration: none
+    }
 
-figure.gold-metallic {
-    background-color: #85754d !important
-}
+    /* Masony Styles*/
+    figure figcaption {
+        background: #d9d9d9;
+        color: #444444;
+    }
 
-figure.black {
-    background-color: #000000 !important
-}
+    figure figcaption h4 {
+        min-height: 38px;
+    }
 
-figure.white {
-    background-color: #ffffff !important
-}
+    figure.purple {
+        background-color: #4b2e83 !important
+    }
 
-figure.grey-light {
-    background-color: #d9d9d9 !important
-}
+    figure.gold {
+        background-color: #b7a57a !important
+    }
 
-figure.grey-dark {
-    background-color: #444444 !important
-}
+    figure.gold-metallic {
+        background-color: #85754d !important
+    }
 
-.theme-purple figure figcaption a.btn {
-    color: #ffffff;
-}
+    figure.black {
+        background-color: #000000 !important
+    }
 
-.theme-purple figure figcaption a.btn:hover {
-    color: #d9d9d9 !important;
-}
+    figure.white {
+        background-color: #ffffff !important
+    }
 
-.header-dark.theme-purple .items-filter li a {
-    color: #4b2e83;
-}
+    figure.grey-light {
+        background-color: #d9d9d9 !important
+    }
 
-figure > figcaption {
-    text-align: center;
-}
+    figure.grey-dark {
+        background-color: #444444 !important
+    }
 
-/* custom filter button trickery */
-.items-filter{
-    margin-bottom: 5px;
-}
-.init-links{
-    min-height: 2.25em;
+    .theme-purple figure figcaption a.btn {
+        color: #ffffff;
+    }
 
-}
-.init-links a{
-    display: none;
-}
-.init-links a strong{
-    font-size: 110%;
-    text-decoration: underline;
-}
-.init-links a:link,
-.init-links a:visited{
-    color: white !important;
-}
-@media (max-width: 650px){
+    .theme-purple figure figcaption a.btn:hover {
+        color: #d9d9d9 !important;
+    }
+
+    .header-dark.theme-purple .items-filter li a {
+        color: #4b2e83;
+    }
+
+    figure > figcaption {
+        text-align: center;
+    }
+
+    /* custom filter button trickery */
     .items-filter {
-        display: block;
+        margin-bottom: 5px;
     }
-    .init-links{
-        min-height: initial;
+
+    .init-links {
+        min-height: 2.25em;
+
     }
-}
+
+    .init-links a {
+        display: none;
+    }
+
+    .init-links a strong {
+        font-size: 110%;
+        text-decoration: underline;
+    }
+
+    .init-links a:link,
+    .init-links a:visited {
+        color: white !important;
+    }
+
+    @media (max-width: 650px) {
+        .items-filter {
+            display: block;
+        }
+
+        .init-links {
+            min-height: initial;
+        }
+    }
