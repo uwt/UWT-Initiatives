@@ -185,7 +185,7 @@ function revSlider() {
         stretch: "off"
       },
       responsiveLevels: $(this).data('responsive') ? $(this).data('responsive') : [1240,1024,778,480],
-      gridwidth: $(this).data('gridwidth') ? $(this).data('gridwidth') : [1230, 1024, 767, 480],
+      gridwidth: $(this).data('gridwidth') ? $(this).data('gridwidth') : [1240, 1024, 778, 480],
       gridheight: revSliderHeight,
       lazyType: 'none',
       parallax: {
