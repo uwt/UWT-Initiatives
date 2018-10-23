@@ -178,13 +178,14 @@
     }
 
     .init-links {
-        min-height: 2.25em;
+        min-height: 3em;
 
     }
 
-    .init-links a {
+    .init-links div{
         display: none;
     }
+
 
     .init-links a strong {
         font-size: 110%;
