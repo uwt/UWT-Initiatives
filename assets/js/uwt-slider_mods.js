@@ -6,8 +6,8 @@
     'use strict';
 
     // Count the slides, less 1 for the overview slide
-    let bobo = $("#rev_slider > ul > li").length - 1;
-
+    var slideCount = $("#rev_slider > ul > li").length - 1;
+    console.log("slideCount: ", slideCount);
 
 
 

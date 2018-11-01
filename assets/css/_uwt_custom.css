@@ -179,11 +179,11 @@ figure > figcaption {
 
 .items-filter li a {
     padding: 0.3em;
+    border-bottom: 2px solid transparent;
 }
 
 .items-filter li a:focus, figure.he-2 a:focus, .hover-icons-wrapper a:focus, figcaption h4 a:focus{
-    outline: 2px solid #4b2e83;
-    padding: 2px;
+    border-bottom: 2px solid #4b2e83;
 }
 
 .init-links {
