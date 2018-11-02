@@ -182,7 +182,7 @@ figure > figcaption {
     border-bottom: 2px solid transparent;
 }
 
-.items-filter li a:focus, figure.he-2 a:focus, .hover-icons-wrapper a:focus, figcaption h4 a:focus{
+.items-filter li a:focus, figure.he-2 a:focus, .hover-icons-wrapper a:focus, figcaption h4 a:focus {
     border-bottom: 2px solid #4b2e83;
 }
 
@@ -208,6 +208,30 @@ figure > figcaption {
 @media (max-width: 650px) {
     .items-filter {
         display: block;
+    }
+
+    .items-filter li:before {
+        content: '\ffed';
+        margin-right: 0.5em;
+    }
+
+    .items-filter .filter-title:before,
+    .items-filter .filter-all:before {
+        content: "";
+        margin-right: inherit;
+    }
+
+    .items-filter li.filter-all {
+        float: none;
+        display: block;
+    }
+
+    .items-filter .filter-all a,
+    .items-filter .filter-title{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
     }
 
     .init-links {
