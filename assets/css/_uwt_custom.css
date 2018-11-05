@@ -83,7 +83,10 @@
     color: rgba(255, 255, 255, 1.00);
     text-decoration: none
 }
-
+.tp-caption.Initiative-Button a:link,.tp-caption.Initiative-Button a:visited{
+    color: white;
+    text-decoration: underline;
+}
 .tp-caption.Sub-Point, .Sub-Point {
     background-color: transparent;
     border-color: transparent;
@@ -227,7 +230,7 @@ figure > figcaption {
     }
 
     .items-filter .filter-all a,
-    .items-filter .filter-title{
+    .items-filter .filter-title {
         display: block;
         margin-right: auto;
         margin-left: auto;
@@ -237,4 +240,34 @@ figure > figcaption {
     .init-links {
         min-height: initial;
     }
+
+   .grid .item-wide{
+
+        height: 300px !important;
+    }
+   .grid .item-wide figure img{
+       height: 225px;
+       width: auto;
+   }
+    /* Here we are toying with the idea of being able to align the images so we can see the proper part of the image.
+    For example, the wide shot of the lady sitting on the right side of the bench defaults to show just the empty left
+    side of the bench.  We would like to be able to show the part of the image we prefer.*/
+   .grid figure img.right{
+       /*margin-left: -100%;*/
+   }
+}
+
+/* Call to action buttons*/
+.section-call-to-action.contact .action-subtitle {
+    clear: both;
+    margin-bottom: 3em;
+}
+
+.section-call-to-action.contact .action-text {
+    line-height: 3em;
+}
+
+.btn-inline-container {
+    float: left;
+    margin-right: 1em;
 }
