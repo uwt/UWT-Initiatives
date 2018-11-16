@@ -120,7 +120,24 @@
     letter-spacing: 2px;
     line-height: 40px;
     padding: 0;
-    text-decoration: none
+    text-decoration: none;
+    /*
+    I like the idea of text shadow, but it makes the text a bit blurry.
+    text-shadow: 1px 1px 1px #000000;
+    */
+}
+
+/*
+Some slide backgrounds are just too weird to read the text.  In such cases, we should add a 'darken' class to
+the containing <li> tag.  Adding darken will put a background onto the subpoint text.
+*/
+#rev_slider li.darken .tp-mask-wrap{
+    overflow: visible !important;
+}
+#rev_slider li.darken .Sub-Point {
+    -webkit-box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 /* Masony Styles*/
@@ -304,7 +321,7 @@ figure > figcaption {
 
 @media only screen and (min-width: 1920px) {
     body.debug-on .Main-Title {
-        color:white;
+        color: white;
     }
 }
 
