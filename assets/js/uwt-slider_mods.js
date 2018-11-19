@@ -1,6 +1,6 @@
 /*
 * Manipulate the links to the initiative-[impact-goal].html pages
-* on the initiatives.html page.
+* on the index.html page.
 * */
 (function () {
     'use strict';
